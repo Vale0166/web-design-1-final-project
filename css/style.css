@@ -1,35 +1,41 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/style.css">
-  <title>Grapic Design Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-</head>
+html {
+    line-height: 1.15; 
+    -webkit-text-size-adjust: 100; 
+}
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
 
-<body>
-<header>
-<nav>
-<ul>
-<li><a> href="section1">Section 1</a></li>
-<li><a> href="section2">Section 2</a></li>
-<li><a> href="section3">Section 3</a></li>
-<li><a> href="section4">Section 4</a></li>
-<li><a> href="section5">Section 5</a></li>
-</ul>
-</nav>
-</header>
+section {
+    background-color: #FAFAFA;
+    color: #0e1215;
+    padding: 4rem 0;
+}
 
-<main>
-<section id="section1">
-<div class="wrapper"
-<h1> Behind Blue Eyes </h1>
-<img src="../" alt">
-<p> Behind blue eyes is an acrylic painting,done on a classic canvas. The idea was to embrace the depth that is behind ones eyes. 
-</div>
-</section>
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #0E1215;
+    background-color:white;
+}
 
-</html>
+h1 {
+    font-size: 3rem;
+    font-weight: body;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
